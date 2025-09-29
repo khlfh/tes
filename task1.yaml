@@ -13,6 +13,9 @@ Parameters:
     Type: String
     Default: 10.0.0.0/24
 
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+
 
 Resources:
 
